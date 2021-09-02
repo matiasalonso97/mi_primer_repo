@@ -1,0 +1,45 @@
+
+
+.box{ 
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(#007f5f,#aacc00, #ffff3f);
+}
+.titulos{
+    color: #f4a261;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline;
+}
+
+.subtitulos{
+    color: #f4a261;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.foto1{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid #f4a261; 
+    float: right; 
+    width: 300px;
+    height: auto;
+}
+
+.tamañoletra{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.enfasis{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline;
+}
+
+.ubicacionmapa{
+    float: right;
+}
