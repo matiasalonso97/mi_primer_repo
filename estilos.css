@@ -1,9 +1,14 @@
 
+header{
+    width: 1330px;
+    height: 250px;
+    position: relative;
+}
 
 .box{ 
     width: auto;
     height: auto;
-    background-image: linear-gradient(#007f5f,#aacc00, #ffff3f);
+    background-image: linear-gradient(#2a9d8f,#e9c46a, #e76f51);
 }
 .titulos{
     color: #f4a261;
@@ -22,11 +27,10 @@
 
 .foto1{ 
     padding: 10px; 
-    margin: 10px; 
-    border: 2px solid #f4a261; 
-    float: right; 
+    margin: 10px;
     width: 300px;
     height: auto;
+    align-items: center;
 }
 
 .tamañoletra{
@@ -42,4 +46,69 @@
 
 .ubicacionmapa{
     float: right;
+}
+
+.navigator{
+    width: 1330px;
+    height: 40px;
+}
+
+nav ol li{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+
+.recetas{
+    width: 75%;
+    height: 1400px;
+    background-color: #264653;
+    border-radius: 5px;
+}
+
+footer{
+    width: 1330px;
+    height: 250px;
+}
+
+nav ol li:hover{
+    zoom: 110%;
+}
+
+.formcontacto{
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    background-color: #f4a261;
+    border-radius: 5px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    float: center;
+}
+
+main section form label{
+    display: block;
+    color: #264653;
+}
+
+.espaciomensaje{
+    width: 175px;
+    height: 100px;
+}
+
+section{
+    color: #e9c46a;
+}
+
+aside{
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    background-color: wheat;
+    position: absolute;
+    top: 352px;
+    right: 0px;
+
 }
