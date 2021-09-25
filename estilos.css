@@ -1,13 +1,23 @@
-
 header{
-    width: 1330px;
-    height: 250px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 15vw;
+}
+
+.cabeza{
+    width: 80vw;
+
 }
 
 .box{ 
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(#2a9d8f,#e9c46a, #e76f51);
 }
 .titulos{
@@ -28,7 +38,7 @@ header{
 .foto1{ 
     padding: 10px; 
     margin: 10px;
-    width: 300px;
+    width: 100%;
     height: auto;
     align-items: center;
 }
@@ -49,8 +59,8 @@ header{
 }
 
 .navigator{
-    width: 1330px;
-    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 nav ol li{
@@ -61,15 +71,18 @@ nav ol li{
 }
 
 .recetas{
-    width: 75%;
+    width: 74%;
     height: 1400px;
     background-color: #264653;
     border-radius: 5px;
+    top: 60%;
 }
 
 footer{
-    width: 1330px;
-    height: 250px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+
 }
 
 nav ol li:hover{
@@ -100,15 +113,27 @@ main section form label{
 
 section{
     color: #e9c46a;
+    position: absolute;
+    top: 60%;
+    justify-content: center;
 }
 
 aside{
+    display: flex;
+    flex-direction: row-reverse;
     width: 25%;
     height: auto;
     border-radius: 5px;
     background-color: wheat;
     position: absolute;
-    top: 352px;
+    top: 60%;
     right: 0px;
 
+}
+
+.videosmapa{
+    display: flex;
+    width: 50%;
+    position: static;
+    flex-direction: column-reverse;
 }
