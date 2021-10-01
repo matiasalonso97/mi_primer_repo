@@ -16,8 +16,8 @@ header{
 }
 
 .box{ 
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     background-image: linear-gradient(#2a9d8f,#e9c46a, #e76f51);
 }
 .titulos{
@@ -38,10 +38,20 @@ header{
 .foto1{ 
     padding: 10px; 
     margin: 10px;
-    width: 100%;
+    width: 90%;
     height: auto;
     align-items: center;
 }
+
+aside{
+    display: flex;
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    background-color: wheat;
+    align-items: flex-start;
+}
+
 
 .tamañoletra{
     font-size: 20px;
@@ -54,9 +64,7 @@ header{
     text-decoration: underline;
 }
 
-.ubicacionmapa{
-    float: right;
-}
+
 
 .navigator{
     display: flex;
@@ -72,7 +80,7 @@ nav ol li{
 
 .recetas{
     width: 74%;
-    height: 1400px;
+    height: auto;
     background-color: #264653;
     border-radius: 5px;
     top: 60%;
@@ -82,6 +90,7 @@ footer{
     width: 100vw;
     height: 20vh;
     display: flex;
+    top: 90%;
 
 }
 
@@ -112,28 +121,46 @@ main section form label{
 }
 
 section{
+    display: flex;
+    flex-wrap: wrap;
     color: #e9c46a;
-    position: absolute;
     top: 60%;
     justify-content: center;
 }
 
-aside{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 25%;
-    height: auto;
-    border-radius: 5px;
-    background-color: wheat;
-    position: absolute;
-    top: 60%;
-    right: 0px;
 
+div iframe{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .videosmapa{
     display: flex;
-    width: 50%;
-    position: static;
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
+
+@media (min-width: 992px){
+    .videosmapa{
+        display: none;
+    }
+
+    aside
+    
+    .tamañoletra{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    .recetas{
+        display: flex;
+        width: 100%;
+        background-color: #3D2754;
+    }
+}
+
+@media (max-width: 575px){
+    .logo{
+        display: none;}
+    }
+
